@@ -37,6 +37,14 @@ dependencies = [
     "zstandard>=0.22.0",
     "pydub",
     "faster_whisper",
+    "streamlit",
+    "playsound",
+    "streamlit-mic-recorder",
+    "numpy",
+    "pillow",
+    "sentence-transformers",
+    "scikit-learn",
+    "python-dotenv"
 ]
 
 [project.optional-dependencies]
