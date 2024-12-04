@@ -1,0 +1,15 @@
+Healing Abilities
+Warm Mend A quick burst of healing light that closes minor wounds instantly. Perfect for keeping allies on their feet in the heat of battle.
+Renewal Aura A sustained spell that surrounds me and my allies with a gentle golden glow, gradually restoring health over time.
+Rejuvenating Touch A focused healing spell for severe injuries, requiring concentration but capable of saving someone on the brink of collapse.
+Protective Spells
+Sanctuary Shield Creates a shimmering barrier around an ally or myself, absorbing damage for a short time.
+Purity Ward Dispels curses, poison, or negative effects affecting my allies, cleansing their bodies and minds.
+Supportive Buffs
+Ember of Courage Inspires allies, filling them with warmth and determination, boosting their strength and stamina.
+Swift Grace Temporarily increases the speed and agility of allies, making them harder to hit and quicker to strike.
+Combat Skills (When Needed!)
+Herbal Bolas Using my knowledge of plants, I throw small packets of powdered herbs that explode on impact—stunning enemies or creating blinding clouds.
+Willow Strike My staff isn’t just for walking and channeling magic! I can swing it with precision to knock foes off balance or jab at weak points.
+Special Ability
+Blossom of Renewal My ultimate move! I channel all my energy to summon a massive healing wave, revitalizing my allies and driving back enemies with its force. However, it drains me significantly, so I only use it in dire situations.
