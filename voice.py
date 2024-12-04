@@ -3,11 +3,13 @@ from playsound import playsound
 from modules.fish_speech.tools.llama.generate import main as generate
 from pathlib import Path
 from modules.fish_speech.tools.vqgan.inference import main as infer
+import torch
 
 class VoiceService:
     def __init__(self):
         self._output_dir = "outputs/"
         os.makedirs(self._output_dir, exist_ok=True)
+        self.device="cuda"if torch.cuda.is_available()else"cpu"
 
     def fishspeech(self, text,character="Aeliana"):
         # for the first time must generate prompt_token from source voice
@@ -32,7 +34,7 @@ class VoiceService:
                  prompt_tokens=[Path(self._output_dir+f"fake{n}.npy")], #fake3.npy is xianyun, fake0.npy is bailu, fake5.npy is songo
                  checkpoint_path=Path("./checkpoints/fish-speech-1.2"),
                  half=True,
-                 device="cuda",
+                 device=self.device,
                  num_samples=1,
                  max_new_tokens=1000,
                  top_p=0.7,
@@ -53,6 +55,7 @@ class VoiceService:
         playsound(temp_audio_file)
 
 if __name__=="__main__":
-    vs=VoiceService()
-    vs.fishspeech("lama you are gay nigga",character="Aeliana")
-    vs.play("./outputs/output0.wav")
+    pass
+    # vs=VoiceService()
+    # vs.fishspeech("hello",character="Aeliana")
+    # vs.play("./outputs/output0.wav")

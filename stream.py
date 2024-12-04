@@ -447,7 +447,7 @@ def main():
                 start_time = time.time()
                 with st.spinner("Thinking...🤔🧐"):
                     col1, col2 = st.columns([1, 9])
-                    llm_response=play_character(selected_character=selected_character,prompt=f"at the {place}: "+prompt,col1=col1,col2=col2,sound=False,num_agent=i,agent_messages=all_messages,mode="chat")
+                    llm_response=play_character(selected_character=selected_character,prompt=f"at the {place}: "+prompt,col1=col1,col2=col2,sound=True,num_agent=i,agent_messages=all_messages,mode="chat")
                     time.sleep(1)
                 st.session_state.messages.append({"role": "assistant", "content": llm_response, "character": selected_character})
                 all_messages.append(llm_response)
@@ -472,7 +472,7 @@ def main():
                     start_time = time.time()
                     with st.spinner("Thinking...🤔🧐"):
                         col1, col2 = st.columns([1, 9])
-                        llm_response=play_character(selected_character=selected_character,prompt=f"at the {place} ready to battle with {boss_des}: "+prompt,col1=col1,col2=col2,sound=False,num_agent=i,agent_messages=all_messages,mode="skills")
+                        llm_response=play_character(selected_character=selected_character,prompt=f"at the {place} ready to battle with {boss_des}: "+prompt,col1=col1,col2=col2,sound=True,num_agent=i,agent_messages=all_messages,mode="skills")
                     st.session_state.battle_messages.append(llm_response)
                     time.sleep(1)
                     st.session_state.messages.append({"role": "assistant", "content": llm_response, "character": selected_character})
@@ -490,7 +490,7 @@ def main():
                     start_time = time.time()
                     with st.spinner("Thinking...🤔🧐"):
                         col1, col2 = st.columns([1, 9])
-                        llm_response=play_character(selected_character=selected_character,prompt=f"at the {place} battle with {boss_des}: "+prompt,col1=col1,col2=col2,sound=False,num_agent=i,agent_messages=all_messages,mode="skills")
+                        llm_response=play_character(selected_character=selected_character,prompt=f"at the {place} battle with {boss_des}: "+prompt,col1=col1,col2=col2,sound=True,num_agent=i,agent_messages=all_messages,mode="skills")
                     st.session_state.battle_messages.append(llm_response)
                     time.sleep(2)
                     st.session_state.messages.append({"role": "assistant", "content": llm_response, "character": selected_character})
