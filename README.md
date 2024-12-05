@@ -2,7 +2,7 @@
 
 
 ## What is prompt-star*-fantasy?
-[link](Homeless-Lab.github.io): A turnbase mmoprg chat based game with 3 wifu. We have chat mode, battle mode and town mode.
+[link](https://homeless-lab.github.io/): A turnbase mmoprg chat based game with 3 wifu. We have chat mode, battle mode and town mode.
 wifu can speak ,listen our voice, send images(???) and they can interact to each other (taking long time to inference)
 
 <img src="https://i.imgur.com/2CXyV6p.jpeg" width="1000">
