@@ -47,7 +47,7 @@ class VoiceService:
 
         infer(input_path=Path("codes_0.npy"), output_path=Path(self._output_dir+"output0.wav"),
               checkpoint_path="./checkpoints/fish-speech-1.2/firefly-gan-vq-fsq-4x1024-42hz-generator.pth",
-              config_name="firefly_gan_vq", device="cuda")
+              config_name="firefly_gan_vq", device=self.device)
 
         #self.play(self._output_dir+"output0.wav")
 
