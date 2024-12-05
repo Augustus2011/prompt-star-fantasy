@@ -23,7 +23,9 @@ dependencies = [
     "einops>=0.7.0",
     "librosa>=0.10.1",
     "rich>=13.5.3",
+    "gradio>=4.0.0",
     "wandb>=0.15.11",
+    "grpcio>=1.58.0",
     "kui>=1.6.0",
     "uvicorn>=0.30.0",
     "loguru>=0.6.0",
@@ -40,11 +42,11 @@ dependencies = [
     "streamlit",
     "playsound",
     "streamlit-mic-recorder",
-    "numpy",
     "pillow",
     "sentence-transformers",
     "scikit-learn",
-    "python-dotenv"
+    "python-dotenv",
+    "torch",
 ]
 
 [project.optional-dependencies]

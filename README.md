@@ -47,6 +47,8 @@ git clone https://github.com/Augustus2011/prompt-star-fantasy.git
 cd prompt-star-fantast
 conda create -n venv python=3.10 -y
 conda activate venv
+python -m prompt-star-fantasy prompt-star-fantasy
+source prompt-star-fantasy/bin/activate
 cd modules/fish_speech
 pip install -e .
 
