@@ -18,11 +18,11 @@ In battle mode, the system uses three agents to enhance gameplay:
 - Generator
 
 The boss monster is randomly generated based on the map's characteristics.
-<img src="https://i.imgur.com/GdNHPtL.png" width="300">
+<img src="https://i.postimg.cc/zXnBgHNZ/battle-mode-1.png" width="300">
 
 ### 🏘️ town mode
 
-<img src="https://i.imgur.com/SUcF0TM.png" width="300">
+<img src="https://i.postimg.cc/hjqZhY1q/town-mode.png" width="300">
 
 ## ⚙️ technical
 - ASR(api)
