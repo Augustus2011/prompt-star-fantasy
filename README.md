@@ -8,7 +8,7 @@ wifu can speak ,listen our voice, send images(???) and they can interact to each
 <img src="https://i.imgur.com/2CXyV6p.jpeg" width="1000">
 
 Present,we only have 13 maps(ai generated) and our characters know the context of each map and monster details
-<img src="https://i.imgur.com/ASXeZoY.png" width="600">
+<img src="https://drive.google.com/file/d/1eoC0BH2EQLhPx1r1EuB25ZDdmj2TNyRm/view?usp=sharing" width="600">
 
 ### ⚔️ Battle Mode Mechanics
 In battle mode, the system uses three agents to enhance gameplay:
